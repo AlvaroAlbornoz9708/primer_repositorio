@@ -4,7 +4,7 @@
 }
 
 
-h1{
+h1{ /**NO OLVIDAR MODIFICAR PARA MOBILE**/
     font-weight: 600;
     font-size: 100px;
     color:black;
@@ -57,11 +57,12 @@ body {
 
 }
 
-.integrantes li a{
+.integrantes li a{ /**sacar el color azul**/
     
     text-decoration: none;
+    list-style: none;
 }
-.integrantes{
+.integrantes{ 
     list-style: none;
 }
 
