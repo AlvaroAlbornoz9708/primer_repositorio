@@ -1,4 +1,9 @@
 
+*{
+    box-sizing: border-box;
+}
+
+
 h1{
     font-weight: 600;
     font-size: 100px;
@@ -7,9 +12,14 @@ h1{
     margin-top: auto;
     background-color: blanchedalmond;
 }
+html{
+    height: 100%;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: antiquewhite;
+    min-height: 100%;
 }
 .banner{
     height: 600px;
@@ -66,7 +76,6 @@ body {
 
 .lista-pie{
     list-style-type: none;
-    text-decoration: none;
 }
 
 .pie{
@@ -82,3 +91,25 @@ body {
     float: left;
     margin-right: 20px;
 }
+
+
+.titulo-pie{
+    text-decoration:underline;
+}
+
+.remeras >*{
+    display: inline-block;
+    padding: 5px;
+    border-right: 10px;
+}
+
+.galeria >*{
+    display: inline-block;
+    padding: 5px;
+    border-right: 10px;
+}
+
+.grid-container > *{
+    padding: 10px;
+}
+

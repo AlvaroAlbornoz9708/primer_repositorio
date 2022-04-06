@@ -1,31 +1,36 @@
 <!DOCTYPE html>
-<html lang="Es">
+<html lang="es">
 <head><meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LFDAA-Somos fundamentalistas</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="Imagenes/losFundamentalistasFavicon.jpg" title="Imagen ilustrativa de todos los integrantes de la banda">
+    <link rel="shortcut icon" href="imagenes/losfundamentalistasFavicon.jpg" title="imagen ilustrativa de todos los integrantes de la banda">
 </head>
-    <body> 
-        <nav>
+    <body class="grid-container"> 
+    <header class="header">    
+      <nav>
             <ul class="menu">
-           
+              
               <li>
-                <a href="Paginas/quienes-somos.html">¿Quienes Somos?</a> 
+                <a href="../Mi banda-Alvaro Albornoz/index.html">Inicio</a> 
+              </li>  
+
+              <li>
+                <a href="paginas/quienes-somos.html">¿Quienes Somos?</a> 
               </li>     
               <li>
-                <a href="Paginas/Integrantes.html">Integrantes</a>  
+                <a href="paginas/Integrantes.html">Integrantes</a>  
               </li>  
               <li>
-                <a href="Paginas/Discografia.html">Discografia Completa</a>  
+                <a href="paginas/Discografia.html">Discografia Completa</a>  
               </li>  
               <li>
-                <a href="Paginas/Galeria.html">Galeria</a>
+                <a href="paginas/Galeria.html">Galeria</a>
               </li> 
             
               <li>
-                <a href="#Formularios">Ir a Formularios</a>
+                <a href="#formularios">Ir a Formularios</a>
               </li>  
               <li>
                 <a href="#redes">Nuestras Redes</a>
@@ -38,14 +43,15 @@
          <div class="banner__descripcion">
             <h1>LFDAA-Somos Fundamentalistas</h1>
          </div>
-    </div>
+     </div>
+    </header>
    
-    <div>
+    <div class="comentarios">
         <h2>Dejanos tu comentario</h2>
 
             <form id="Formularios" placeholder="Escribi aca">
                 <label for="nombre">Nombre</label> 
-                <input type="text"
+                <input type="text">
                 
                 <div>            
                     <label for="email">Email</label>
@@ -59,60 +65,75 @@
             
 
             <textarea></textarea>
-                <input type="submit" value="Enviar"</input>
-                <input type="reset" value="Limpiar"</input>     
+                
+                <input type="submit" value="enviar"></input>
+                <input type="reset" value="limpiar"></input>     
             
-                <label for="Si">Si</label>
+                <label for="si">Si</label>
                 <input type="radio" name="opcion" id="Si">
-            <div>
-                 <label for="No">No</label>
+            
+                 <label for="no">No</label>
                  <input type="radio" name="opcion" id="No">
-                 <p>¿deseas Enviar?</p>
-            </div>
-             </form>
-                  
-    </div>
 
-    <fieldset>
-        <legend>Sumate a nuestra peña</legend>
+            
+             </form>
+      </div>
+    <div class="peña">
+      <fieldset>
+        <legend><h2>Sumate a nuestra peña</h2></legend>
         <form>
             <p>Sexo</p>
-            <label for="Si">Hombre</label>
-            <input type="radio" name="opcion" id="Hombre"</input>
-            <label for="No">Mujer</label>
-            <input type="radio" name="opcion" id="Mujer"</input>
+              <label for="si">Hombre</label>
+              <input type="radio" name="opcion" id="hombre"></input>
+              <label for="no">Mujer</label>
+              <input type="radio" name="opcion" id="mujer"></input>
             <div>
-            <label for="nombre">Nombre</label>
-            <input type="text" placeholder="Escribi tu nombre">
+              <label for="nombre">Nombre</label>
+              <input type="text" placeholder="escribi tu nombre">
             </div>  
             <div>
               <label for="nombre">Apellido</label>
-              <input type="text" placeholder="Apellido">
+              <input type="text" placeholder="apellido">
             </div> 
 
         <div>
-              <P>Elegi Tu Talle (al sumarte a nuestra peña, te llegara una remera)</P>
+              <P>Elegi tu remera y talle (al sumarte a nuestra peña, te llegara una remera)</P>
         </div>
         <div>
-            <select name="Elegi Tu Talle">
-                <option value="Talle S">Talle S</option>
-                <option value="Talle M">Talle M</option>
-                <option value="Talle L">Talle L</option>
-                <option value="Talle XL">Talle XL</option>
+          <select name="elegi tu remera">
+              <option value="modelo1">Modelo 1</option>
+              <option value="modelo2">Modelo 2</option>
+              <option value="modelo3">Modelo 3</option>
+              <option value="modelo4">Modelo 4</option>
+          </select>
         </div>
+
+        <div>
+            <select name="elegi tu talle">
+                <option value="talle-S">Talle S</option>
+                <option value="talle-M">Talle M</option>
+                <option value="talle-L">Talle L</option>
+                <option value="talle-XL">Talle XL</option>
             </select>
+        </div>
+            
         </form>
           <div>
               <input type="submit" value="Enviar">
           </div>
-          <img class="remera" src="Imagenes/remera.jpg">
-    </fieldset>
-            
+        <div class="remeras">
+          <img src="imagenes/remera.jpg" alt="modelo1">
+          <img src="imagenes/remera2.jpg" alt="modelo2">
+          <img src="imagenes/remera3.jpg" alt="modelo3">
+          <img src="imagenes/remera4.jpg" alt="modelo4">
+        </div>  
+        </fieldset>
+    </div>        
         
     <fieldset>
         <div class="pie">
             <footer id="redes"></footer>
-                <h3>Nuestras redes</h3>
+                <h3 class="titulo-pie">Nuestras Redes</h3>
                 <p>Podes seguirnos en nuestras redes</p>
                 <ul class="lista-pie">
                     <li>Instagram:Peña ricotera de zona norte</li>
