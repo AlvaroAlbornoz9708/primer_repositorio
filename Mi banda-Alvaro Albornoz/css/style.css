@@ -11,9 +11,8 @@ h1{ /**NO OLVIDAR MODIFICAR PARA MOBILE**/
     text-align: center;
     margin-top: auto;
     background-color: blanchedalmond;
-    display: grid;
-
 }
+
 html{
     height: 100%;
 }
@@ -114,4 +113,5 @@ body{
 .grid-container > *{
     padding: 10px;
 }
+
 
