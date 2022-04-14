@@ -3,37 +3,42 @@
     box-sizing: border-box;
 }
 
-
-h1{ /**NO OLVIDAR MODIFICAR PARA MOBILE**/
+h1{ 
     font-weight: 600;
     font-size: 100px;
     color:black;
-    text-align: center;
-    margin-top: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: blanchedalmond;
 }
 
-html{
-    height: 100%;
+h2 { 
+    font-weight: 600;
+    font-size: 100px;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: blanchedalmond;
 }
+
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: antiquewhite;
     min-height: 100%;
+    
 }
-.banner{
+
+.banner  {
     height: 600px;
     background-image: url(../Imagenes/parallaxRedondos.jpg);
     background-attachment: fixed;
-    display:flex;
     align-items: center;
     
 }
 
 .menu{
     list-style: none;
-    background-color:antiquewhite;
+    background-color:black;
+    
     padding: 0;
     width: 90%;
     max-width: 1000px;
@@ -43,7 +48,7 @@ body{
 
 .menu li a{
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 20px;
     display: block;
 }
@@ -111,7 +116,33 @@ body{
 }
 
 .grid-container > *{
+    
     padding: 10px;
 }
 
+.animation{
+    animation: pulse 5s linear  both;
+}
+
+
+#titulo >*{
+    margin-top: 100px;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media (min-width: 860px) {
+    .titulo >*{
+        
+        flex-direction: column;
+        text-align: center;
+    
+
+        
+        
+    }
+    
+    
+      
+}
 
