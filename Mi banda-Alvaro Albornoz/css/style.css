@@ -146,5 +146,7 @@ body{
     }
 }
 
-
+.titulo-disco{
+    text-decoration:underline;
+}
    
