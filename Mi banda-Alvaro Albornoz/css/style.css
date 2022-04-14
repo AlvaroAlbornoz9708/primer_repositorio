@@ -96,7 +96,14 @@ body{
     border-radius: 10px;
     float: left;
     margin-right: 20px;
+    margin-top: 20px;
 }
+
+.integrantes p {
+    padding: 50px;
+    
+}
+   
 
 
 .titulo-pie{
@@ -136,13 +143,8 @@ body{
         
         flex-direction: column;
         text-align: center;
-    
-
-        
-        
     }
-    
-    
-      
 }
 
+
+   
