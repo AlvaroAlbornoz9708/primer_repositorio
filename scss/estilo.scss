@@ -73,26 +73,24 @@
             max-width: 1000px;
             margin: auto;
             text-align: center;
+                li {
+                    display: inline-block;
+                    text-align: center;
+                         a{
+                            text-decoration: none;
+                            color: white;
+                            padding: 20px;
+                            display: block;
+
+                                 :hover{
+                                    background: red;
+                    
+                }
+            }
         }
+    }
         
-        .menu li a{
-            text-decoration: none;
-            color: white;
-            padding: 20px;
-            display: block;
-        }
-        
-        .menu li {
-            display: inline-block;
-            text-align: center;
-        }
-        
-        .menu li a:hover{
-            background: red;
-        
-        }
-        
-        .integrantes li a{ /**sacar el color azul**/
+.integrantes li a{ /**sacar el color azul**/
             
             text-decoration: none;
             list-style: none;

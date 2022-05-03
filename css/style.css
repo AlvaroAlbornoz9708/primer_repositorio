@@ -63,19 +63,16 @@ body {
   max-width: 1000px;
   margin: auto;
   text-align: center; }
-
-.menu li a {
-  text-decoration: none;
-  color: white;
-  padding: 20px;
-  display: block; }
-
-.menu li {
-  display: inline-block;
-  text-align: center; }
-
-.menu li a:hover {
-  background: red; }
+  .menu li {
+    display: inline-block;
+    text-align: center; }
+    .menu li a {
+      text-decoration: none;
+      color: white;
+      padding: 20px;
+      display: block; }
+      .menu li a :hover {
+        background: red; }
 
 .integrantes li a {
   /**sacar el color azul**/
