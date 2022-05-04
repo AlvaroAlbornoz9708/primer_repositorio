@@ -71,7 +71,7 @@ body {
       color: white;
       padding: 20px;
       display: block; }
-      .menu li a :hover {
+      .menu li a:hover {
         background: red; }
 
 .integrantes li a {
@@ -92,7 +92,7 @@ body {
   list-style-type: none; }
 
 .pie {
-  color: darkslategray;
+  color: black;
   font-weight: bold;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -164,26 +164,42 @@ body {
   box-shadow: 0 0 10px orchid, 0 0 40px orchid, 0 0 60px orchid;
   transition-delay: 0.5s; }
 
-.iconify-inline {
-  display: inline-block; }
-
 .red--twitter {
-  background: #51aff8; }
+  background: #51aff8;
+  padding: 0;
+  width: 90%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center; }
   .red--twitter:hover {
     background: white; }
     .red--twitter:hover .red__nombre {
       color: #51aff8; }
 
 .red--facebook {
-  background: #2956a3; }
+  background: #2956a3;
+  padding: 0;
+  width: 90%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center; }
   .red--facebook:hover {
     background: white; }
     .red--facebook:hover .red__nombre {
       color: #2956a3; }
 
 .red--instagram {
-  background: #ce1312; }
+  background: #ce1312;
+  padding: 0;
+  width: 90%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center; }
   .red--instagram:hover {
     background: white; }
     .red--instagram:hover .red__nombre {
       color: #ce1312; }
+
+.box {
+  height: 100px;
+  width: 1000px; }
