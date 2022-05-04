@@ -1,0 +1,22 @@
+SEO:
+
+
+•	En el archivo index.html sumé el SEO con las siguientes características:
+KW: Mediante la etiqueta “meta name keywords” agregue las palabras claves que definirán el contenido de mi index.html, las mismas son: "HTML, ASP, JS, META, ROCK, BANDAS, REDONDOS, INDIO, INSTAGRAM, FACEBOOK, TWITTER".
+DESCRIPCION: Mediante la etiqueta “meta name description” agregue el siguiente párrafo que explica de que se va a tratar mi index.html: “Acá se encontrara toda la información sobre los Redonditos de Ricota y Los Fundamentalistas del Aire Acondicionado”
+
+•	En la página quienes-somos.html sume el SEO con las siguientes características: 
+KW: Mediante la etiqueta “meta name keywords” agregue las palabras claves que definirán el contenido de mi página quienes-somos.html, las mismas son: “HTML, ASP, JS, META, ROCK, NOSOTROS, AMIGOS, RECITAL, REDONDOS, ZONA NORTE, PEÑA RICOTERA”.
+DESCRIPCION: Mediante la etiqueta “meta name description” agregue el siguiente párrafo que explica de que se va a tratar mi página quienes-somos.html: “En esta página te contamos quienes somos y nuestra pasión por la música”.
+
+•	En la página integrantes.html sume el SEO con las siguientes características: 
+KW: Mediante la etiqueta “meta name keywords” agregue las palabras claves que definirán el contenido de mi página integrantes.html, las mismas son: “HTML, ASP, JS, META, ROCK, INTEGRANTES, LOS FUNDAMENTALISTAS, INDIO, PABLO, LUCIANA, GASPAR, BALTASAR, FERNANDO, DEBORAH, BIOGRAFIA”
+DESCRIPCION: Mediante la etiqueta “meta name description” agregue el siguiente párrafo que explica de que se va a tratar mi página integrantes.html: “En esta página van a poder encontrar la biografía de los integrantes de Los Fundamentalistas del Aire Acondicionado”.
+
+•	En la página galeria.html sume el SEO con las siguientes características:
+KW: Mediante la etiqueta “meta name keywords” agregue las palabras claves que definirán el contenido de mi página galeria.html, las mismas son: “HTML, ASP, JS, META, ROCK, FOTOS, RECITALES, MISA, LA PLATA, ESPAÑA”
+DESCRIPCION: Mediante la etiqueta “meta name description” agregue el siguiente párrafo que explica de que se va a tratar mi página galeria.html: “En esta sección van a poder compartir sus fotos, videos o recuerdos de los mejores momentos de Los Fundamentalistas del Aire Acondicionado”
+
+•En la página discografia.html sume el SEO con las siguientes características:
+KW: Mediante la etiqueta “meta name keywords” agregue las palabras claves que definirán el contenido de mi página discografia.html, las mismas son: “HTML, ASP, JS, META, ROCK, DISCOGRAFIA, EL TESORO DE LOS INOCENTES, PORCO REX, EL PERFUME DE LA TEMPESTAD, PAJARITOS BRAVOS MUCHACHITOS, EL RUISEÑOR EL AMOR Y LA MUERTE”
+DESCRIPCION: Mediante la etiqueta “meta name description” agregue el siguiente párrafo que explica de que se va a tratar mi página discografia.html: “Aca se encontrara la discografia completa de Los Fundamentalistas del Aire Acondicionado y un enlace que los llevara a escuchar el disco completo en YouTube”.
