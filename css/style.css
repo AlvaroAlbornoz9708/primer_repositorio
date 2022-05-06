@@ -35,7 +35,8 @@ h1 {
   font-size: 100px;
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: blanchedalmond; }
+  background-color: blanchedalmond;
+  text-align: center; }
 
 h2 {
   font-weight: 600;
@@ -114,7 +115,13 @@ body {
 .remeras > * {
   display: inline-block;
   padding: 30px;
-  border-right: 100px; }
+  border-right: 100px;
+  border-radius: 20%;
+  margin-left: 55px; }
+  .remeras > *:hover {
+    background: red;
+    box-shadow: 0 0 5px red, 0 0 20px red, 0 0 60px #fd0000;
+    transition-delay: 0.5s; }
 
 .galeria > * {
   display: inline-block;
@@ -131,26 +138,34 @@ body {
   margin-top: 100px;
   flex-direction: column;
   text-align: center; }
+  #titulo > * h2 {
+    margin-top: 100px;
+    flex-direction: column;
+    text-align: center; }
 
 @media (min-width: 860px) {
   .titulo > * {
     flex-direction: column;
     text-align: center; } }
 
-.titulo-disco {
+.titulo-disco ul li a {
   text-decoration: underline; }
 
 .boton-arriba {
-  text-decoration: none;
+  height: 55px;
   position: relative;
   display: inline-block;
   overflow: hidden;
   transition: 0.2s; }
+  .boton-arriba:hover {
+    background: #2a76a8;
+    box-shadow: 0 0 10px #2a76a8, 0 0 40px #2a76a8, 0 0 60px #2a76a8;
+    transition-delay: 0.5s; }
 
-.boton-arriba:hover {
-  background: orchid;
-  box-shadow: 0 0 10px orchid, 0 0 40px orchid, 0 0 60px orchid;
-  transition-delay: 0.5s; }
+.iconify {
+  height: 50px;
+  width: 50px;
+  position: relative; }
 
 .boton-Enviar {
   position: relative;
@@ -202,4 +217,27 @@ body {
 
 .box {
   height: 100px;
-  width: 1000px; }
+  width: 1000px;
+  text-align: justify; }
+
+@media (max-width: 700px) and (min-width: 200px) {
+  .video-yt {
+    width: 250px;
+    height: 300px; } }
+
+@media (max-width: 876px) and (min-width: 200px) {
+  .responsive {
+    font-weight: 60px;
+    font-size: 60px;
+    text-align: left; } }
+
+@media (max-width: 600px) and (min-width: 200px) {
+  .galeria-yt {
+    width: 250px;
+    height: 200px; }
+  .titulo-integrantes {
+    font-weight: 60px;
+    font-size: 60px; } }
+
+.h3 {
+  text-decoration: underline; }
